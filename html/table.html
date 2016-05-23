@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+    <table border="1" width="100%" summary="세부설명">
+
+        <caption> 표의 제목</caption>
+
+        <colgroup>
+            <col width="100"/>
+            <col />
+            <col width="100"/>
+            <col />
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="4" scope="colgroup"> text </th>
+                <!-- 그룹으로 묶어줘야 된다 -->
+            </tr>
+                <tr>
+                <th scope="row">      text     </th>
+                <th scope="row">      text     </th>
+                <th scope="row">      text     </th>
+                <th scope="row">      text     </th>
+
+
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row">      foot     </th>
+                <td>      foot     </td>
+                <td>      foot     </td>
+                <td>      foot     </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="row">      table     </th>
+                <td >      table     </td>
+                <td>      table     </td>
+                <td>      table     </td>
+            </tr>
+            <tr>
+
+                <th scope="row">      table     </th>
+                <td>      table     </td>
+                <td>      table     </td>
+                <td>      table     </td>
+            </tr>
+            <tr>
+                <th scope="col">      table     </th>
+                <td>      table     </td>
+                <td>      table     </td>
+                <td>      table     </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
